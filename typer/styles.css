@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 35px;
+    width: 30vw;
+    min-width: 329px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(199, 228, 255);
+}
+
+.container * {
+    margin-top: 1rem;
+}
+
+.content * {
+    display: block;
+    margin: 10px auto;
+}
+
+.footer * {
+    display: block;
+}
+
+.footer button {
+    margin: auto;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(253, 162, 59);
+    color: white;
+    border: none;
+}
+
+.footer button:hover {
+    background-color: rgb(189, 121, 45);
+}
